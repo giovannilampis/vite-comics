@@ -4,7 +4,7 @@
     <header class="d-flex">
 
         <div>
-            <img src="../public/img/dc-logo.png" alt="logo">
+            <img src="/public/img/dc-logo.png" alt="logo">
         </div>
 
         <ul class="text-uppercase d-flex">
@@ -32,7 +32,7 @@
         </ul>
 
     </header>
-    
+
 </template>
 
 <style scoped lang="scss">
