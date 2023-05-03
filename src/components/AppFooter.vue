@@ -2,15 +2,44 @@
 
 <template>
 
-    <footer class="d-flex">
+    <section class="container-footer">
 
-        <a href="#" class="text-uppercase">sign-up now</a>
+        <footer class="d-flex justify-content-between align-items-center text-uppercase">
 
-    </footer>
+            <a href="#" class="sign-up">sign-up now!</a>
+
+            <ul class="d-flex">
+
+                <li><a href="#">follow us</a></li>
+                <li><a href="#"><img src="/public/img/footer-facebook.png" alt="facebook logo link"></a></li>
+                <li><a href="#"><img src="/public/img/footer-twitter.png" alt="twitter logo link"></a></li>
+                <li><a href=""><img src="/public/img/footer-youtube.png" alt="youtube logo link"></a></li>
+                <li><a href="#"><img src="/public/img/footer-pinterest.png" alt="pinterest logo link"></a></li>
+                <li><a href="#"><img src="/public/img/footer-periscope.png" alt="periscope logo link"></a></li>
+
+            </ul>
+
+        </footer>
+
+    </section>
+
+
 
 </template>
 
 <style scoped lang="scss">
+
+    .container-footer {
+        background-color: rgba(48, 48, 48, 1);
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    ul li {
+        margin-right: 2rem;
+    }
 
     a {
         text-decoration: none;
@@ -18,7 +47,6 @@
 
     footer {
         height: 6rem;
-        background-color: rgba(48, 48, 48, 1);
         color: rgba(255, 255, 255, 1);
     }
 

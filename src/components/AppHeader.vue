@@ -38,9 +38,14 @@
 </template>
 
 <style scoped lang="scss">
+
+  template {
+    background-color: rgba(255, 255, 255, 1);
+    
+  }
+
   header {
     height: 6rem;
-    color: rgba(255, 255, 255, 1);
   }
 
   a {
