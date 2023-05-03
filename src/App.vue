@@ -42,10 +42,11 @@
 
   a {
     text-decoration: none;
+    margin-right: 2rem;
   }
 
   li {
-    color: red;
+    color: black;
     list-style-type: none;
   }
 
