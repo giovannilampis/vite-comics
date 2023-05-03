@@ -1,4 +1,6 @@
-<script></script>
+<script>
+
+</script>
 
 <template>
     <header class="d-flex">
