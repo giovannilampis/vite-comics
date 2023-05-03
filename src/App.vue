@@ -40,13 +40,16 @@
 
     <main>
 
+      <div class="provisional-content">
+        Content goes here
+      </div>
 
     </main>
 
 
     <footer>
 
-      
+      <a href="#" class="text-uppercase">sign-up now</a>
     </footer>
 
   </div>
@@ -55,16 +58,39 @@
 
 <style lang="scss">
 
-  a {
-    text-decoration: none;
-    margin-right: 2rem;
+  header {
+    height: 6rem;
+    color: rgba(255, 255, 255, 1);
   }
 
-  a:hover
+  a {
+    text-decoration: none;
+    margin-right: 2.5rem;
+  }
 
-  li {
+  header ul li {
     color: black;
     list-style-type: none;
+  }
+
+  main {
+    background-color: rgba(28, 28, 28, 1);
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .provisional-content {
+    height: 6rem;
+  }
+
+  footer {
+    height: 6rem;
+    background-color: rgba(48, 48, 48, 1);
+    color: rgba(255, 255, 255, 1);
+  }
+
+  footer a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
   }
 
 </style>
