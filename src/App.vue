@@ -1,42 +1,19 @@
-<script setup>
-
+<script>
+import AppHeader from './components/AppHeader.vue';
+export default {
+  data() {
+    return {
+      count: 0
+    }
+  },components:{AppHeader}
+}
 </script>
 
 <template>
 
   <div class="container">
 
-    <header class="d-flex">
-
-        <div>
-            <img src="../public/img/dc-logo.png" alt="logo">
-        </div>
-
-        <ul class="text-uppercase d-flex">
-          
-          <a href=""><li>characters</li></a>
-          
-          <a href=""><li>comics</li></a>
-          
-          <a href=""><li>movies</li></a>
-          
-          <a href=""><li>tv</li></a>
-          
-          <a href=""><li>games</li></a>
-          
-          <a href=""><li>collectibles</li></a>
-          
-          <a href=""><li>videos</li></a>
-          
-          <a href=""><li>fans</li></a>
-          
-          <a href=""><li>news</li></a>
-
-          <a href=""><li>shop</li></a>
-          
-        </ul>
-
-    </header>
+    <AppHeader/>
 
     <main>
 
@@ -58,20 +35,6 @@
 
 <style lang="scss">
 
-  header {
-    height: 6rem;
-    color: rgba(255, 255, 255, 1);
-  }
-
-  a {
-    text-decoration: none;
-    margin-right: 2.5rem;
-  }
-
-  header ul li {
-    color: black;
-    list-style-type: none;
-  }
 
   main {
     background-color: rgba(28, 28, 28, 1);
@@ -91,6 +54,10 @@
   footer a {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
+  }
+
+  .icon-bg {
+    color: rgba(121, 121, 121, 1);
   }
 
 </style>
