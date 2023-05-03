@@ -4,35 +4,50 @@
 
 <template>
 
-  <div class="container d-flex">
+  <div class="container">
 
-    <div>
-        <img src="../public/img/dc-logo.png" alt="logo">
-    </div>
+    <header class="d-flex">
 
-    <ul class="text-uppercase d-flex">
-      
-      <a href=""><li>characters</li></a>
-      
-      <a href=""><li>comics</li></a>
-      
-      <a href=""><li>movies</li></a>
-      
-      <a href=""><li>tv</li></a>
-      
-      <a href=""><li>games</li></a>
-      
-      <a href=""><li>collectibles</li></a>
-      
-      <a href=""><li>videos</li></a>
-      
-      <a href=""><li>fans</li></a>
-      
-      <a href=""><li>news</li></a>
+        <div>
+            <img src="../public/img/dc-logo.png" alt="logo">
+        </div>
 
-      <a href=""><li>shop</li></a>
+        <ul class="text-uppercase d-flex">
+          
+          <a href=""><li>characters</li></a>
+          
+          <a href=""><li>comics</li></a>
+          
+          <a href=""><li>movies</li></a>
+          
+          <a href=""><li>tv</li></a>
+          
+          <a href=""><li>games</li></a>
+          
+          <a href=""><li>collectibles</li></a>
+          
+          <a href=""><li>videos</li></a>
+          
+          <a href=""><li>fans</li></a>
+          
+          <a href=""><li>news</li></a>
+
+          <a href=""><li>shop</li></a>
+          
+        </ul>
+
+    </header>
+
+    <main>
+
+
+    </main>
+
+
+    <footer>
+
       
-    </ul>
+    </footer>
 
   </div>
  
@@ -44,6 +59,8 @@
     text-decoration: none;
     margin-right: 2rem;
   }
+
+  a:hover
 
   li {
     color: black;
