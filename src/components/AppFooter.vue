@@ -82,8 +82,15 @@
 
 <style scoped lang="scss">
 
+    .top-footer {
+        background-image: url(/public/img/footer-bg.jpg);
+        height: 20rem;
+
+    }
+
     .bottom-footer {
         background-color: rgba(48, 48, 48, 1);
+        background-size: cover;
     }
 
     ul {

@@ -14,39 +14,39 @@
 
         <div class="blue-menu">
 
-            <div class="container">
+            <div class="container-blue">
 
-                <ul class="text-uppercase d-flex">
+                <ul class="d-flex text-uppercase">
 
-                    <li class="d-flex">
+                    <li class="d-flex justify-content-between align-items-center">
                         <div>
                             <img src="/public/img/buy-comics-digital-comics.png" alt="digital-comics-buy">
                         </div>
                         <a href="#">digital comics</a>
                     </li>
 
-                    <li class="d-flex">
+                    <li class="d-flex justify-content-between align-items-center">
                         <div>
                             <img src="/public/img/buy-comics-merchandise.png" alt="comics-merchandise">
                         </div>
                         <a href="#">dc merchandise</a>
                     </li>
 
-                    <li class="d-flex">
+                    <li class="d-flex justify-content-between align-items-center">
                         <div>
                             <img src="/public/img/buy-comics-subscriptions.png" alt="comics-subscriptions">
                         </div>
                         <a href="#">subscription</a>
                     </li>
 
-                    <li class="d-flex">
+                    <li class="d-flex justify-content-between align-items-center">
                         <div>
                             <img src="/public/img/buy-comics-shop-locator.png" alt="shop-locator">
                         </div>  
                         <a href="#">comic shop locator</a>
                     </li>
 
-                    <li class="d-flex">
+                    <li class="d-flex justify-content-between align-items-center">
                         <div>
                             <img src="/public/img/buy-dc-power-visa.svg" alt="dc-power-visa">
                         </div>
@@ -66,7 +66,8 @@
 <style scoped lang="scss">
 
     img {
-        width: 100%;
+        height: 2.5rem;
+        width: 80%;
     }
 
     main {
@@ -88,8 +89,14 @@
         background-color: rgba(2, 130, 249, 1);
     }
 
+    .container-blue {
+        width: 85%;
+        margin: 0 auto;
+    }
+
     .blue-menu ul li div {
-        height: 3rem;
+        height: 2.5rem;
+        aspect-ratio: 1 / 1;
     }
 
     li {
