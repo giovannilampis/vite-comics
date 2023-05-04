@@ -1,9 +1,12 @@
 <script>
 
-    import ComicBook from ./components/ComicBook.vue';
+    import ComicBook from './ComicBook.vue';
 
     export default{
         name: "AppMain",
+        components: {
+            ComicBook
+        },
         data() {
             return {
                 products: [
