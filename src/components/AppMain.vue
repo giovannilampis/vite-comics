@@ -93,7 +93,12 @@
                 
                 <div v-for="(element, index) in products" 
                     :key="index">
+
                     <img :src="element.thumb" :alt="element.series">
+
+                    <h6 class="text-uppercase">{{ element.series }}</h6>
+
+                    <span>{{ element.type }} - {{ element.price }}</span>
 
 
                 </div>
@@ -177,7 +182,7 @@
     }
 
     .comics-container > div {
-        width: calc(100% / 5);
+        width: calc(100% / 6);
     }
 
     .comics-container img {
