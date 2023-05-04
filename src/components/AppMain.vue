@@ -88,9 +88,16 @@
 
     <main>
 
-        <div class="provisional-content">
-            <div class="provisional-content-container">
-                Content goes here
+        <div class="comics">
+            <div class="comics-container">
+                
+                <div v-for="(element, index) in products" 
+                    :key="index">
+                    <img :src="element.thumb" :alt="element.series">
+
+
+                </div>
+
             </div>
         </div>
 
@@ -147,7 +154,7 @@
 
 <style scoped lang="scss">
 
-    img {
+    .blue-menu img {
         height: 2.5rem;
         width: 80%;
     }
@@ -156,14 +163,25 @@
         color: rgba(255, 255, 255, 1);
         margin: 0 auto;
     }
-    .provisional-content {
-        height: 6rem;
+    .comics {
+        min-height: 10rem;
         background-color: rgba(28, 28, 28, 1);
     }
 
-    .provisional-content-container {
+    .comics-container {
         width: 85%;
         margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .comics-container > div {
+        width: calc(100% / 5);
+    }
+
+    .comics-container img {
+        width: 100%;
     }
 
     .blue-menu {
