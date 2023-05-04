@@ -2,6 +2,7 @@
 import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
 import AppMain from './components/AppMain.vue';
+import BlueSection from './components/BlueSection.vue';
 import JumbotronSection from './components/JumbotronSection.vue';
 
 
@@ -11,7 +12,7 @@ export default {
     return {
       count: 0
     }
-  },components:{AppHeader, JumbotronSection, AppFooter, AppMain}
+  },components:{AppHeader, JumbotronSection, AppFooter, AppMain, BlueSection}
 }
 </script>
 
@@ -23,6 +24,8 @@ export default {
   <JumbotronSection/>
 
   <AppMain/>
+
+  <BlueSection/>
 
   <AppFooter/>
  
