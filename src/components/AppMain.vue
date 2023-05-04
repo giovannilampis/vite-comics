@@ -91,15 +91,18 @@
         <div class="comics">
             <div class="comics-container">
                 
-                <div v-for="(element, index) in products" 
+                <div class="card" v-for="(element, index) in products" 
                     :key="index">
 
                     <img :src="element.thumb" :alt="element.series">
 
-                    <h6 class="text-uppercase">{{ element.series }}</h6>
+                    <div class="comics-specs">
 
-                    <span>{{ element.type }} - {{ element.price }}</span>
+                        <h6 class="text-uppercase">{{ element.series }}</h6>
 
+                        <span>{{ element.type }} - {{ element.price }}</span>
+
+                    </div>
 
                 </div>
 
@@ -181,8 +184,9 @@
         flex-wrap: wrap;
     }
 
-    .comics-container > div {
+    .card {
         width: calc(100% / 6);
+        background-color: rgba(28, 28, 28, 1);
     }
 
     .comics-container img {
