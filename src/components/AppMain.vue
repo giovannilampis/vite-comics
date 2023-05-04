@@ -1,5 +1,7 @@
 <script>
 
+    import ComicBook from ./components/ComicBook.vue';
+
     export default{
         name: "AppMain",
         data() {
@@ -162,42 +164,20 @@
 
 <style scoped lang="scss">
 
-    .blue-menu img {
-        height: 2.5rem;
-        width: 80%;
-    }
-
     main {
         color: rgba(255, 255, 255, 1);
         margin: 0 auto;
+        padding: 2rem 0;
     }
-    .comics {
-        min-height: 10rem;
-        background-color: rgba(28, 28, 28, 1);
-    }
-
-    .comics-container {
-        width: 85%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    .card {
-        width: calc(100% / 6);
-        background-color: rgba(28, 28, 28, 1);
-    }
-
-    .comics-container img {
-        width: 100%;
+    .blue-menu img {
+        height: 2.5rem;
+        width: 80%;
     }
 
     .blue-menu {
         height: 8rem;
         background-color: rgba(2, 130, 249, 1);
     }
-
     .container-blue {
         width: 85%;
         margin: 0 auto;
@@ -216,6 +196,28 @@
     a {
         text-decoration: none;
         color: rgba(255, 255, 255, 1);
+    }
+    .comics {
+        min-height: 10rem;
+        background-color: rgba(28, 28, 28, 1);
+    }
+
+    .comics-container {
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: calc(100% / 6 - 0.5rem);
+        background-color: rgba(28, 28, 28, 1);
+        padding: 1rem;
+    }
+
+    .comics-container img {
+        width: 100%;
     }
 
 </style>

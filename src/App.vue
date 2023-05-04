@@ -29,16 +29,10 @@ export default {
 
 <style lang="scss">
 
-.container AppHeader {
-  background-color: rgba(255, 255, 255, 1);
-}
-
-.container AppMain {
-  background-color: rgba(28, 28, 28, 1);
-}
-
-.container AppFooter {
-  background-color: rgba(48, 48, 48, 1);
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 </style>
