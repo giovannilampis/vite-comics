@@ -10,7 +10,7 @@
             <img src="/public/img/dc-logo.png" alt="logo">
         </div>
 
-        <ul class="text-uppercase d-flex justify-content-between align-items-center">
+        <ul class="text-uppercase m-0 d-flex justify-content-between align-items-center">
         
             <a href=""><li>characters</li></a>
             
