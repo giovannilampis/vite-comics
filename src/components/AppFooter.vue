@@ -63,7 +63,7 @@
 
             <ul class="d-flex">
 
-                <li><a href="#">follow us</a></li>
+                <li class="d-flex align-items-center"><a href="#">follow us</a></li>
                 <li><a href="#"><img src="/public/img/footer-facebook.png" alt="facebook logo link"></a></li>
                 <li><a href="#"><img src="/public/img/footer-twitter.png" alt="twitter logo link"></a></li>
                 <li><a href=""><img src="/public/img/footer-youtube.png" alt="youtube logo link"></a></li>
@@ -95,10 +95,15 @@
 
     ul {
         list-style-type: none;
+        margin: 0;
     }
 
     ul li {
         margin-right: 2rem;
+    }
+
+    ul li:first-child a {
+        color: rgba(2, 130, 249, 1);
     }
 
     a {
@@ -115,6 +120,11 @@
     .bottom-footer-container a {
         color: rgba(255, 255, 255, 1);
         text-decoration: none;
+    }
+
+    .bottom-footer-container > a {
+        border: 2px solid rgba(2, 130, 249, 1);
+        padding: 0.7rem 0.9rem;
     }
 
     .icon-bg {
