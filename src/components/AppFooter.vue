@@ -2,9 +2,62 @@
 
 <template>
 
-    <section class="container-footer">
+    <section class="top-footer">
 
-        <footer class="d-flex justify-content-between align-items-center text-uppercase">
+        <div class="container d-flex flex-column">
+
+            <ul>
+
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+
+            </ul>
+
+            <ul>
+
+                <li></li>
+                <li></li>
+
+            </ul>
+
+        </div>
+
+        <ul>
+
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+        </ul>
+
+        <ul>
+
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+        </ul>
+
+    </section>
+
+    <section class="bottom-footer">
+
+        <div class="bottom-footer-container d-flex justify-content-between align-items-center text-uppercase">
 
             <a href="#" class="sign-up">sign-up now!</a>
 
@@ -19,7 +72,7 @@
 
             </ul>
 
-        </footer>
+        </div>
 
     </section>
 
@@ -29,7 +82,7 @@
 
 <style scoped lang="scss">
 
-    .container-footer {
+    .bottom-footer {
         background-color: rgba(48, 48, 48, 1);
     }
 
@@ -45,12 +98,14 @@
         text-decoration: none;
     }
 
-    footer {
+    .bottom-footer-container {
+        width: 85%;
         height: 6rem;
         color: rgba(255, 255, 255, 1);
+        margin: 0 auto;
     }
 
-    footer a {
+    .bottom-footer-container a {
         color: rgba(255, 255, 255, 1);
         text-decoration: none;
     }

@@ -2,15 +2,19 @@
 
 <template>
 
-    <section class="container-main">
+    
 
-        <main>
+    <main>
 
-            <div class="provisional-content">
-            Content goes here
+        <div class="provisional-content">
+            <div class="provisional-content-container">
+                Content goes here
             </div>
+        </div>
 
-            <div class="sub-menu">
+        <div class="blue-menu">
+
+            <div class="container">
 
                 <ul class="text-uppercase d-flex">
 
@@ -38,7 +42,7 @@
                     <li class="d-flex">
                         <div>
                             <img src="/public/img/buy-comics-shop-locator.png" alt="shop-locator">
-                        </div>
+                        </div>  
                         <a href="#">comic shop locator</a>
                     </li>
 
@@ -48,24 +52,18 @@
                         </div>
                         <a href="">dc power visa</a>
                     </li>
-                
+
                 </ul>
 
             </div>
 
-        </main>
+        </div>
 
-    </section>
-
-    
+    </main>
 
 </template>
 
 <style scoped lang="scss">
-
-    .container-main {
-        background-color: rgba(28, 28, 28, 1);
-    }
 
     img {
         width: 100%;
@@ -73,17 +71,24 @@
 
     main {
         color: rgba(255, 255, 255, 1);
+        margin: 0 auto;
     }
     .provisional-content {
         height: 6rem;
+        background-color: rgba(28, 28, 28, 1);
     }
 
-    .sub-menu {
+    .provisional-content-container {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .blue-menu {
         height: 8rem;
         background-color: rgba(2, 130, 249, 1);
     }
 
-    .sub-menu ul li div {
+    .blue-menu ul li div {
         height: 3rem;
     }
 

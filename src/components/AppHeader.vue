@@ -3,6 +3,7 @@
 </script>
 
 <template>
+  
     <header class="d-flex">
 
         <div>
@@ -46,6 +47,8 @@
 
   header {
     height: 6rem;
+    width: 85%;
+    margin: 0 auto;
   }
 
   a {
