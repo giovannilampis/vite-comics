@@ -3,14 +3,14 @@
 </script>
 
 <template>
-  
-    <header class="d-flex">
 
-        <div>
+    <header class="d-flex justify-content-between align-items-center">
+
+        <div class="logo-container">
             <img src="/public/img/dc-logo.png" alt="logo">
         </div>
 
-        <ul class="text-uppercase d-flex">
+        <ul class="text-uppercase d-flex justify-content-between align-items-center">
         
             <a href=""><li>characters</li></a>
             
@@ -49,6 +49,15 @@
     height: 6rem;
     width: 85%;
     margin: 0 auto;
+  }
+
+  .logo-container {
+    height: 4rem;
+    aspect-ratio: 1 / 1;
+  }
+
+  img {
+    width: 100%;
   }
 
   a {
