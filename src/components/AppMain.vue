@@ -96,20 +96,8 @@
         <div class="comics">
             <div class="comics-container">
                 
-                <div class="card" v-for="(element, index) in products" 
-                    :key="index">
-
-                    <img :src="element.thumb" :alt="element.series">
-
-                    <div class="comics-specs">
-
-                        <h6 class="text-uppercase">{{ element.series }}</h6>
-
-                        <span>{{ element.type }} - {{ element.price }}</span>
-
-                    </div>
-
-                </div>
+                <ComicBook v-for="(element, index) in products" key="index"
+                :comicDetails="element"/>
 
             </div>
         </div>
