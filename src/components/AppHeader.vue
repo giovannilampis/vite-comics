@@ -12,26 +12,17 @@
 
         <ul class="text-uppercase m-0 d-flex justify-content-between align-items-center">
         
-            <a href=""><li>characters</li></a>
-            
-            <a href=""><li>comics</li></a>
-            
-            <a href=""><li>movies</li></a>
-            
-            <a href=""><li>tv</li></a>
-            
-            <a href=""><li>games</li></a>
-            
-            <a href=""><li>collectibles</li></a>
-            
-            <a href=""><li>videos</li></a>
-            
-            <a href=""><li>fans</li></a>
-            
-            <a href=""><li>news</li></a>
+            <li><a href="#">characters</a></li>
+            <li><a href="#">comics</a></li>
+            <li><a href="#">movies</a></li>
+            <li><a href="#">tv</a></li>
+            <li><a href="#">games</a></li>
+            <li><a href="#">collectibles</a></li>
+            <li><a href="#">videos</a></li>
+            <li><a href="#">fans</a></li>
+            <li><a href="#">news</a></li>
+            <li><a href="#">shop</a></li>
 
-            <a href=""><li>shop</li></a>
-        
         </ul>
 
     </header>
@@ -63,10 +54,17 @@
   a {
     text-decoration: none;
     margin-right: 2.5rem;
+    color: black;
+  }
+
+  ul li:hover a{
+    color: rgba(2, 130, 249, 1);
+    border-bottom: 2px solid rgba(2, 130, 249, 1);
   }
 
   header ul li {
     color: black;
     list-style-type: none;
+   
   }
 </style>

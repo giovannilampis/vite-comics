@@ -2,54 +2,54 @@
 
 <template>
 
-    <section class="top-footer">
+    <section class="top-footer d-flex justify-content-start align-items-center">
 
         <div class="container d-flex flex-column">
 
             <ul>
-
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li class="text-white text-uppercase"><h5>DC COMICS</h5></li>
+                <li>Characters</li>
+                <li>Comics</li>
+                <li>Movies</li>
+                <li>TV</li>
+                <li>Games</li>
+                <li>Videos</li>
+                <li>News</li>
 
             </ul>
 
             <ul>
-
-                <li></li>
-                <li></li>
+                <li class="text-white text-uppercase"><h5>shop</h5></li>
+                <li>Shop DC</li>
+                <li>Shop DC Collectibles</li>
 
             </ul>
 
         </div>
 
         <ul>
-
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li><h5 class="text-white text-uppercase">dc</h5></li>
+            <li>Terms Of Use</li>
+            <li>Privacy policy (New)</li>
+            <li>Ad Choices</li>
+            <li>Advertising</li>
+            <li>Jobs</li>
+            <li>Subscriptions</li>
+            <li>Talent Workshoos</li>
+            <li>CPSC Certificates</li>
+            <li>Ratings</li>
+            <li>Shop Help</li>
+            <li>Contact Us</li>
 
         </ul>
 
         <ul>
-
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li><h5 class="text-white text-uppercase">SITES</h5></li>
+            <li>DC</li>
+            <li>MAD Magazine</li>
+            <li>DC Kids</li>
+            <li>DC Universe</li>
+            <li>DC Power Visa</li>
 
         </ul>
 
@@ -96,6 +96,7 @@
     ul {
         list-style-type: none;
         margin: 0;
+        color: gray;
     }
 
     ul li {

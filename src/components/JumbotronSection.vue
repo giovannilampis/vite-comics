@@ -15,7 +15,7 @@
 <style lang="scss" scoped>
 
     .jumbotron {
-        height: 25rem;
+        min-height: 55rem;
         background-image: url(/public/img/jumbotron.jpg);
         background-size: cover;
         background-repeat: no-repeat;
