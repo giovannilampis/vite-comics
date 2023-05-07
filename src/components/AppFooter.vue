@@ -2,60 +2,66 @@
 
 <template>
 
-    <section class="top-footer d-flex justify-content-start align-items-center">
+    <section>
 
-        <div class="container d-flex flex-column">
+        <div class="top-footer-container">
 
-            <ul>
-                <li class="text-white text-uppercase"><h5>DC COMICS</h5></li>
-                <li>Characters</li>
-                <li>Comics</li>
-                <li>Movies</li>
-                <li>TV</li>
-                <li>Games</li>
-                <li>Videos</li>
-                <li>News</li>
+            <div class="d-flex flex-column">
 
-            </ul>
+                <ul>
+                    <li class="text-white text-uppercase"><h5>DC COMICS</h5></li>
+                    <li>Characters</li>
+                    <li>Comics</li>
+                    <li>Movies</li>
+                    <li>TV</li>
+                    <li>Games</li>
+                    <li>Videos</li>
+                    <li>News</li>
 
-            <ul>
-                <li class="text-white text-uppercase"><h5>shop</h5></li>
-                <li>Shop DC</li>
-                <li>Shop DC Collectibles</li>
+                </ul>
 
-            </ul>
+                <ul>
+                    <li class="text-white text-uppercase mt-4"><h5>shop</h5></li>
+                    <li>Shop DC</li>
+                    <li>Shop DC Collectibles</li>
+
+                </ul>
+
+                </div>
+
+                <ul>
+                <li><h5 class="text-white text-uppercase">dc</h5></li>
+                <li>Terms Of Use</li>
+                <li>Privacy policy (New)</li>
+                <li>Ad Choices</li>
+                <li>Advertising</li>
+                <li>Jobs</li>
+                <li>Subscriptions</li>
+                <li>Talent Workshoos</li>
+                <li>CPSC Certificates</li>
+                <li>Ratings</li>
+                <li>Shop Help</li>
+                <li>Contact Us</li>
+
+                </ul>
+
+                <ul>
+                <li><h5 class="text-white text-uppercase">SITES</h5></li>
+                <li>DC</li>
+                <li>MAD Magazine</li>
+                <li>DC Kids</li>
+                <li>DC Universe</li>
+                <li>DC Power Visa</li>
+
+                </ul>
+
 
         </div>
 
-        <ul>
-            <li><h5 class="text-white text-uppercase">dc</h5></li>
-            <li>Terms Of Use</li>
-            <li>Privacy policy (New)</li>
-            <li>Ad Choices</li>
-            <li>Advertising</li>
-            <li>Jobs</li>
-            <li>Subscriptions</li>
-            <li>Talent Workshoos</li>
-            <li>CPSC Certificates</li>
-            <li>Ratings</li>
-            <li>Shop Help</li>
-            <li>Contact Us</li>
-
-        </ul>
-
-        <ul>
-            <li><h5 class="text-white text-uppercase">SITES</h5></li>
-            <li>DC</li>
-            <li>MAD Magazine</li>
-            <li>DC Kids</li>
-            <li>DC Universe</li>
-            <li>DC Power Visa</li>
-
-        </ul>
-
+      
     </section>
 
-    <section class="bottom-footer">
+    <div class="bottom-footer">
 
         <div class="bottom-footer-container d-flex justify-content-between align-items-center text-uppercase">
 
@@ -74,22 +80,25 @@
 
         </div>
 
-    </section>
-
-
+    </div>
 
 </template>
 
 <style scoped lang="scss">
 
-    .top-footer {
-        background-image: url(/public/img/footer-bg.jpg);
-        height: 20rem;
-
+    .top-footer-container {
+        width: 85%;
+        margin: 0 auto;
+        min-height: 25rem;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        padding: 2rem 0;
     }
 
-    .bottom-footer {
+    section {
         background-color: rgba(48, 48, 48, 1);
+        background-image: url(/public/img/footer-bg.jpg);
         background-size: cover;
     }
 
@@ -109,6 +118,10 @@
 
     a {
         text-decoration: none;
+    }
+
+    .bottom-footer {
+        background-color: rgba(48, 48, 48, 1);
     }
 
     .bottom-footer-container {
