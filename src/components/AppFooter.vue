@@ -4,88 +4,97 @@
 
     <section>
 
-        <div class="top-footer-container">
+        <div class="top-footer">
 
-            <div class="d-flex flex-column">
+            <div class="top-footer-container">
 
-                <ul>
-                    <li class="text-white text-uppercase"><h5>DC COMICS</h5></li>
-                    <li>Characters</li>
-                    <li>Comics</li>
-                    <li>Movies</li>
-                    <li>TV</li>
-                    <li>Games</li>
-                    <li>Videos</li>
-                    <li>News</li>
+                <div class="d-flex flex-column">
 
-                </ul>
+                    <ul>
+                        <li class="text-white text-uppercase"><h5>DC COMICS</h5></li>
+                        <li>Characters</li>
+                        <li>Comics</li>
+                        <li>Movies</li>
+                        <li>TV</li>
+                        <li>Games</li>
+                        <li>Videos</li>
+                        <li>News</li>
 
-                <ul>
-                    <li class="text-white text-uppercase mt-4"><h5>shop</h5></li>
-                    <li>Shop DC</li>
-                    <li>Shop DC Collectibles</li>
+                    </ul>
 
-                </ul>
+                    <ul>
+                        <li class="text-white text-uppercase mt-4"><h5>shop</h5></li>
+                        <li>Shop DC</li>
+                        <li>Shop DC Collectibles</li>
+
+                    </ul>
 
                 </div>
 
                 <ul>
-                <li><h5 class="text-white text-uppercase">dc</h5></li>
-                <li>Terms Of Use</li>
-                <li>Privacy policy (New)</li>
-                <li>Ad Choices</li>
-                <li>Advertising</li>
-                <li>Jobs</li>
-                <li>Subscriptions</li>
-                <li>Talent Workshoos</li>
-                <li>CPSC Certificates</li>
-                <li>Ratings</li>
-                <li>Shop Help</li>
-                <li>Contact Us</li>
-
+                    <li><h5 class="text-white text-uppercase">dc</h5></li>
+                    <li>Terms Of Use</li>
+                    <li>Privacy policy (New)</li>
+                    <li>Ad Choices</li>
+                    <li>Advertising</li>
+                    <li>Jobs</li>
+                    <li>Subscriptions</li>
+                    <li>Talent Workshoos</li>
+                    <li>CPSC Certificates</li>
+                    <li>Ratings</li>
+                    <li>Shop Help</li>
+                    <li>Contact Us</li>
                 </ul>
 
                 <ul>
-                <li><h5 class="text-white text-uppercase">SITES</h5></li>
-                <li>DC</li>
-                <li>MAD Magazine</li>
-                <li>DC Kids</li>
-                <li>DC Universe</li>
-                <li>DC Power Visa</li>
+                    <li><h5 class="text-white text-uppercase">SITES</h5></li>
+                    <li>DC</li>
+                    <li>MAD Magazine</li>
+                    <li>DC Kids</li>
+                    <li>DC Universe</li>
+                    <li>DC Power Visa</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="bottom-footer">
+
+            <div class="bottom-footer-container d-flex justify-content-between align-items-center text-uppercase">
+
+                <a href="#" class="sign-up">sign-up now!</a>
+
+                <ul class="d-flex">
+
+                    <li class="d-flex align-items-center"><a href="#">follow us</a></li>
+                    <li><a href="#"><img src="/public/img/footer-facebook.png" alt="facebook logo link"></a></li>
+                    <li><a href="#"><img src="/public/img/footer-twitter.png" alt="twitter logo link"></a></li>
+                    <li><a href=""><img src="/public/img/footer-youtube.png" alt="youtube logo link"></a></li>
+                    <li><a href="#"><img src="/public/img/footer-pinterest.png" alt="pinterest logo link"></a></li>
+                    <li><a href="#"><img src="/public/img/footer-periscope.png" alt="periscope logo link"></a></li>
 
                 </ul>
 
+            </div>
 
         </div>
 
-      
     </section>
-
-    <div class="bottom-footer">
-
-        <div class="bottom-footer-container d-flex justify-content-between align-items-center text-uppercase">
-
-            <a href="#" class="sign-up">sign-up now!</a>
-
-            <ul class="d-flex">
-
-                <li class="d-flex align-items-center"><a href="#">follow us</a></li>
-                <li><a href="#"><img src="/public/img/footer-facebook.png" alt="facebook logo link"></a></li>
-                <li><a href="#"><img src="/public/img/footer-twitter.png" alt="twitter logo link"></a></li>
-                <li><a href=""><img src="/public/img/footer-youtube.png" alt="youtube logo link"></a></li>
-                <li><a href="#"><img src="/public/img/footer-pinterest.png" alt="pinterest logo link"></a></li>
-                <li><a href="#"><img src="/public/img/footer-periscope.png" alt="periscope logo link"></a></li>
-
-            </ul>
-
-        </div>
-
-    </div>
 
 </template>
 
 <style scoped lang="scss">
 
+    section {
+        background-image: url(/public/img/dc-logo-bg.png);
+    }
+
+    .top-footer {
+            background-color: rgba(48, 48, 48, 1);
+            background-image: url(/public/img/footer-bg.jpg);
+            background-size: cover;
+    }
     .top-footer-container {
         width: 85%;
         margin: 0 auto;
@@ -94,12 +103,6 @@
         justify-content: left;
         align-items: flex-start;
         padding: 2rem 0;
-    }
-
-    section {
-        background-color: rgba(48, 48, 48, 1);
-        background-image: url(/public/img/footer-bg.jpg);
-        background-size: cover;
     }
 
     ul {
@@ -120,10 +123,13 @@
         text-decoration: none;
     }
 
+    .top-footer-container .d-flex ul {
+        padding-left: 0;
+    }
+
     .bottom-footer {
         background-color: rgba(48, 48, 48, 1);
     }
-
     .bottom-footer-container {
         width: 85%;
         height: 6rem;
