@@ -86,9 +86,8 @@
 
 <style scoped lang="scss">
 
-    section {
-        background-image: url(/public/img/dc-logo-bg.png);
-    }
+    // section {
+    // }
 
     .top-footer {
             background-color: rgba(48, 48, 48, 1);
@@ -98,6 +97,9 @@
     .top-footer-container {
         width: 85%;
         margin: 0 auto;
+        background-image: url(/public/img/dc-logo-bg.png);
+        background-repeat: no-repeat ;
+        background-position: center right;
         min-height: 25rem;
         display: flex;
         justify-content: left;
