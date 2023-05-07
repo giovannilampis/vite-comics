@@ -53,7 +53,7 @@
 
   a {
     text-decoration: none;
-    margin-right: 2.5rem;
+    margin-right: 3rem;
     color: black;
   }
 

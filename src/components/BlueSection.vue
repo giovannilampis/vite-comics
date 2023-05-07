@@ -85,7 +85,7 @@
 
     li {
         list-style-type: none;
-        margin-right: 3rem;
+        margin-right: 7.5rem;
     }
 
     ul li:last-child {
@@ -95,6 +95,10 @@
     a {
         text-decoration: none;
         color: rgba(255, 255, 255, 1);
+    }
+
+    .container-blue ul {
+        padding-left: 0;
     }
 
 </style>
